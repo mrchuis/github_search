@@ -1,0 +1,33 @@
+name: github_search
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  flutter_bloc: ^8.1.4 # A dart package that helps implement the BLoC pattern.
+  bloc_concurrency: ^0.2.4 # A Dart package that exposes custom event transformers inspired by ember concurrency. Built to work with bloc.
+  dartz: ^0.10.1 # Functional programming in Dart
+  equatable: ^2.0.5 # Simplify Equality Comparisons.
+  dio: ^5.4.0 # Networking package
+  get_it: ^7.2.0 # Service Locator
+  rxdart: ^0.27.7 # RxDart extends the capabilities of Dart Streams and StreamControllers.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/bloc_icon.png
+    - assets/icons/rx_icon.png
